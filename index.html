@@ -5,187 +5,240 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>meu perfil</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/estilo.css" media="screen">
+    <title>meu perfil | Mariana Neves</title>
 </head>
 
-<body bgcolor="#fff0e6">
+<body>
 
-    <ul>
-        <li><a href="./index.html">home</a></li>
-        <li><a href="./contato.html">contato</a></li>
+    <ul id="menu">
+        <li><a href="./index.html">.home</a></li>
+        <li><a href="./contato.html">.contato</a></li>
     </ul>
     <hr />
 
-    <h1>sobre a mariana</h1>
-    <img src="./assets/pfp.png" alt="Foto da autora deste site" width="270" height="270">
-    <p><em>"designer frustrada, estudante de programação e entusiasta de musicais"</em></p>
-    <br />
-
-    <h2>.musicais de palco favoritos</h2>
-    <ul>
-        <li><strong>hamilton: an american musical</strong>
-            <p>Hamilton: An American Musical é um musical sobre a vida do pai-fundador americano Alexander Hamilton, de
+    <div class="head">
+        <h1 class="center margemtop">.sobre a mariana</h1>
+        <div class="container margemtop">
+            <img src="./assets/img/pfp.png" alt="Foto da autora deste site" width="270" height="270" class="pfp">
+            <p class="descricao">"designer frustrada, estudante de programação e entusiasta de musicais."</p>
+        </div>
+    </div>
+    <div class="corpo">
+        <h2 class="margemtop">.musicais de palco favoritos</h2>
+        <ol>
+            <li>hamilton: an american musical</li>
+            <p class="texto">Hamilton: An American Musical é um musical sobre a vida do pai-fundador
+                americano Alexander Hamilton, de
                 música, letra e livro criados por Lin-Manuel Miranda. O espetáculo, inspirado pela biografia de 2004
                 "Alexander Hamilton" do historiador Ron Chernow, alcançou aclamação da crítica e sucesso de bilheteria.
             </p>
-            <img src="./assets/hamilton.jpg" width="750" alt="Banner do musical Hamilton">
-        </li>
-        <br />
-        <li><strong>six: the musical</strong>
-            <p>Six é um musical britânico com livro, música e letra de Toby Marlow e Lucy Moss. O musical é uma
+            <div class="container banner">
+                <img src="./assets/img/hamilton.jpg" width="750" alt="Banner do musical Hamilton">
+            </div>
+
+            <li>six: the musical</li>
+            <p class="texto">Six é um musical britânico com livro, música e letra de Toby Marlow e Lucy Moss. O musical
+                é uma
                 releitura moderna da vida das seis esposas de Henry VIII, apresentadas como um concerto pop, pois as
                 esposas se revezam cantando e contando sua história para ver quem sofreu mais devido a Henry e,
                 portanto, deve se tornar o grupo. vocalista principal.
             </p>
-            <img src="./assets/six.jpg" alt="Banner do musical Six">
-        </li>
-        <br />
-        <li><strong>hadestown</strong>
-            <p>Hadestown: The Myth, The Musical é uma adaptação para os palcos de 2016 do álbum conceitual homônimo folk
-                opera de Anaïs Mitchell. Estreou na off-Broadway em 6 de maio de 2016 no New York Theatre Workshop, com
+            <div class="container banner">
+                <img src="./assets/img/six.jpg" alt="Banner do musical Six">
+            </div>
+
+            <li>hadestown</li>
+            <p class="texto">Hadestown: The Myth, The Musical é uma adaptação para os palcos de 2016 do álbum conceitual
+                homônimo
+                folk
+                opera de Anaïs Mitchell. Estreou na off-Broadway em 6 de maio de 2016 no New York Theatre Workshop,
+                com
                 apresentações até 31 de julho. O espetáculo foi desenvolvido para os palcos e dirigido por Rachel
                 Chavkin.
             </p>
-            <img src="./assets/hadestown.jpg" width="750" alt="Banner do musical Hadestown">
-        </li>
-        <br />
-        <li><strong>chicago</strong>
-            <p>Chicago é um musical composto por John Kander, com letras de Fred Ebb e libretto de Ebb e Bob Fosse. A
+            <div class="container banner">
+                <img src="./assets/img/hadestown.jpg" width="750" alt="Banner do musical Hadestown">
+            </div>
+
+            <li>chicago</li>
+            <p class="texto">Chicago é um musical composto por John Kander, com letras de Fred Ebb e libretto de Ebb e
+                Bob Fosse. A
                 história é uma sátira à corrupção na administração da justiça criminal e ao conceito de "celebridade
                 criminal."
             </p>
-            <img src="./assets/chicago.jpg" width="750" alt="Banner do musical Chicago">
-        </li>
-        <br />
-        <li><strong>brilha la luna</strong>
-            <p>O musical Brilha la Luna, que se inspira nas músicas do grupo Rouge, é uma produção da Lab Cultural, tem
+            <div class="container banner">
+                <img src="./assets/img/chicago.jpg" width="750" alt="Banner do musical Chicago">
+            </div>
+
+            <li>brilha la luna</li>
+            <p class="texto">O musical Brilha la Luna, que se inspira nas músicas do grupo Rouge, é uma produção da Lab
+                Cultural,
+                tem
                 texto de Juliano Marceano, direção original de Pedro Rothe (Elis – A Musical), direção musical e
-                arranjos de Tony Lucchesi (Bibi – Uma Vida em Musical) e coreografias de Victor Maia (Meu Destino é Ser
+                arranjos de Tony Lucchesi (Bibi – Uma Vida em Musical) e coreografias de Victor Maia (Meu Destino é
+                Ser
                 Star). A ideia, segundo os idealizadores, nasceu antes mesmo da volta do grupo em 2013.
             </p>
-            <img src="./assets/brilha la luna.webp" width="750" alt="Banner do musical Brilha La Luna">
-        </li>
-    </ul>
-    <br />
-    <h2>.filmes musicais favoritos</h2>
-    <ul>
-        <li><strong>mamma mia</strong>
-            <p>Donna, a proprietária de um hotel nas ilhas gregas, está preparando o casamento de sua filha com a ajuda
+            <div class="container banner">
+                <img src="./assets/img/brilha la luna.webp" width="750" alt="Banner do musical Brilha La Luna">
+            </div>
+        </ol>
+
+        <h2 class="margemtop">.filmes musicais favoritos</h2>
+        <ol>
+            <li>mamma mia</li>
+            <p class="texto">Donna, a proprietária de um hotel nas ilhas gregas, está preparando o casamento de sua
+                filha com a
+                ajuda
                 de duas amigas. Enquanto isso, a noiva Sophie convida três ex-namorados de sua mãe na esperança de
                 conhecer seu verdadeiro pai.</p>
-            <iframe width="750" height="370" src="https://www.youtube.com/embed/iCVpJ8x1Tnc"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </li>
-        <br />
-        <li><strong>chicago</strong>
-            <p>Velma, a sensação de um clube noturno, assassina seu marido mulherengo. Então Billy Flyn, o advogado mais
+            <div class="container banner">
+                <iframe width="750" height="370" src="https://www.youtube.com/embed/iCVpJ8x1Tnc"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <li>chicago</li>
+            <p class="texto">Velma, a sensação de um clube noturno, assassina seu marido mulherengo. Então Billy Flyn, o
+                advogado
+                mais
                 esperto de Chicago, é o escolhido para defendê-la. A novata cantora Roxie também acaba na prisão por
-                matar seu namorado, e Billy também pega seu caso, transformando tudo em um circo da mídia. Agora, elas
+                matar seu namorado, e Billy também pega seu caso, transformando tudo em um circo da mídia. Agora,
+                elas
                 disputam entre si pelo topo do estrelato.</p>
-            <iframe width="750" height="370" src="https://www.youtube.com/embed/YwXWryx-oJ0"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </li>
-        <br />
-        <li><strong>in the heights</strong>
-            <p>O longa acompanha alguns dias de uma comunidade latina na periferia de Nova York. A partir do
-                protagonista Usnavi, dono de uma mercearia local, a história retrata um grupo em busca de seus sonhos.
+            <div class="container banner">
+                <iframe width="750" height="370" src="https://www.youtube.com/embed/YwXWryx-oJ0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <li>in the heights</li>
+            <p class="texto">O longa acompanha alguns dias de uma comunidade latina na periferia de Nova York. A partir
+                do
+                protagonista Usnavi, dono de uma mercearia local, a história retrata um grupo em busca de seus
+                sonhos.
             </p>
-            <iframe width="750" height="370" src="https://www.youtube.com/embed/U0CL-ZSuCrQ"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </li>
-        <br />
-        <li><strong>rent</strong>
-            <p>Musical que acompanha a vida de amigos boêmios que vivem no bairro de East Village, famoso por ser um
+            <div class="container banner">
+                <iframe width="750" height="370" src="https://www.youtube.com/embed/U0CL-ZSuCrQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <li>rent</li>
+            <p class="texto">Musical que acompanha a vida de amigos boêmios que vivem no bairro de East Village, famoso
+                por ser um
                 polo cultural. Explora os encontros e desencontros amorosos entre personagens muito diferentes e as
                 dificuldades em sobreviver da arte em Nova York.
             </p>
-            <iframe width="750" height="370" src="https://www.youtube.com/embed/KGciEYSshrQ"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </li>
-        <br />
-        <li><strong>moulin rouge</strong>
-            <p>O idealista e inocente poeta Christian se vê seduzido pelo fantástico e obscuro submundo de uma boate
-                parisiense, a Moulin Rouge. Neste glamoroso refúgio do sexo, drogas e farra, ele acaba se apaixonando
+            <div class="container banner">
+                <iframe width="750" height="370" src="https://www.youtube.com/embed/KGciEYSshrQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <li>moulin rouge</li>
+            <p class="texto">O idealista e inocente poeta Christian se vê seduzido pelo fantástico e obscuro submundo de
+                uma boate
+                parisiense, a Moulin Rouge. Neste glamoroso refúgio do sexo, drogas e farra, ele acaba se
+                apaixonando
                 por Satin, a estrela da casa.
             </p>
-            <iframe width="750" height="370" src="https://www.youtube.com/embed/LVLjp3_MQIw"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </li>
-    </ul>
-    <br />
-    <h2>.músicas favoritas de musicais </h2>
-    <ul>
-        <li><strong>defying gravity - wicked</strong>
-            <p />
-            <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/track/184HGdGIscUiPbDuqbvHuN?utm_source=generator" width="750"
-                height="80" frameBorder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-        </li>
-        <br />
-        <li><strong>cell block tango - chicago</strong>
-            <p />
-            <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/track/28Tmk14BdrfaV2YzxpB35c?utm_source=generator" width="750"
-                height="80" frameBorder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-        </li>
-        <br />
-        <li><strong>yorktown (the world turned upside down) - hamilton: an american musical</strong>
-            <p />
-            <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/track/733tju3KUeatsbjcTRQ04i?utm_source=generator" width="750"
-                height="80" frameBorder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-        </li>
-        <br />
-        <li><strong>the greatest show - the greatest showman</strong>
-            <p />
-            <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/track/4ylWMuGbMXNDgDd8lErEle?utm_source=generator" width="750"
-                height="80" frameBorder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-        </li>
-        <br />
-        <li><strong>wait for me (reprise) - hadestown</strong>
-            <p />
-            <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/track/3fJJ28RcXGkgKlgbgBSbc8?utm_source=generator" width="750"
-                height="80" frameBorder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-        </li>
-        <br />
-        <li><strong>candy store - heathers</strong>
-            <p />
-            <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/track/13Soih2NRLeDx8Unbr22mx?utm_source=generator" width="750"
-                height="80" frameBorder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-        </li>
-        <br />
-        <li><strong>96,000 - in the heights</strong>
-            <p />
-            <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/track/0CpE5SeQkHQPYiWX0psxf4?utm_source=generator" width="750"
-                height="80" frameBorder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-        </li>
-        <br />
+            <div class="container banner">
+                <iframe width="750" height="370" src="https://www.youtube.com/embed/LVLjp3_MQIw"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </ol>
 
+        <h2 class="margemtop">.músicas favoritas de musicais</h2>
+        <ol>
+            <li>defying gravity - wicked</li>
+            <p class="texto">
+            <div class="container banner">
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/184HGdGIscUiPbDuqbvHuN?utm_source=generator" width="750"
+                    height="80" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
 
-    </ul>
+            <li>cell block tango - chicago</li>
+            <p class="texto">
+            <div class="container banner">
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/28Tmk14BdrfaV2YzxpB35c?utm_source=generator" width="750"
+                    height="80" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
 
+            <li>yorktown (the world turned upside down) - hamilton: an american musical</li>
+            <p class="texto">
+            <div class="container banner">
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/733tju3KUeatsbjcTRQ04i?utm_source=generator" width="750"
+                    height="80" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
 
+            <li>the greatest show - the greatest showman</li>
+            <p class="texto">
+            <div class="container banner">
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/4ylWMuGbMXNDgDd8lErEle?utm_source=generator" width="750"
+                    height="80" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
+
+            <li>wait for me (reprise) - hadestown</li>
+            <p class="texto">
+            <div class="container banner">
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/3fJJ28RcXGkgKlgbgBSbc8?utm_source=generator" width="750"
+                    height="80" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
+
+            <li>candy store - heathers</li>
+            <p class="texto">
+            <div class="container banner">
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/13Soih2NRLeDx8Unbr22mx?utm_source=generator" width="750"
+                    height="80" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
+
+            <li>96,000 - in the heights</li>
+            <p class="texto">
+            <div class="container banner">
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/0CpE5SeQkHQPYiWX0psxf4?utm_source=generator" width="750"
+                    height="80" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
+        </ol>
+    </div>
+
+    <footer class="margemtop">
+        <hr />
+        <div class="container">
+            <div class="img-footer">
+                <a href="https://www.linkedin.com/in/mariisneves/" target="_blank">
+                    <img width="50" src="./assets/img/sns-linkedin.png">
+                </a>
+            </div>
+            <div class="img-footer">
+                <a href="https://github.com/mariisneves" target="_blank">
+                    <img width="50" src="./assets/img/sns-github.png">
+                </a>
+            </div>
+        </div>
+        <p class="center txtfooter texto">Todos os direitos reservados | Mariana Neves &copy</p>
+    </footer>
 
 </body>
 
